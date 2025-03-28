@@ -1,0 +1,9 @@
+{
+  "dependencies": [
+    "mini_chat_langchain"
+  ],
+  "graphs": {
+    "mini_chat_langchain": "./mini_chat_langchain/__init__.py:create_reflection_agent"
+  },
+  "env": "./.env"
+}

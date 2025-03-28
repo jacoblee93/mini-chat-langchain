@@ -23,7 +23,13 @@ from openevals.code.e2b.pyright import create_e2b_pyright_evaluator
 )
 def test_codegen(input):
     sandbox = Sandbox("OpenEvalsPython")
-    agent = create_reflection_agent(sandbox=sandbox)
+    agent = create_reflection_agent(
+        {
+            "configurable": {
+                "sandbox": sandbox,
+            }
+        }
+    )
     outputs = agent.invoke(input)
     print(outputs["messages"][-1].content)
     t.log_outputs(outputs)

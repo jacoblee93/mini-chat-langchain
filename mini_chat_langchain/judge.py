@@ -11,7 +11,7 @@ def create_judge_graph(sandbox: Sandbox):
             code_extraction_strategy="markdown_code_blocks",
         )
 
-        result = evaluator(outputs=state["messages"][-1].content)
+        result = evaluator(outputs=state)
 
         code_extraction_failed = result["metadata"] and result["metadata"].get(
             "code_extraction_failed"
