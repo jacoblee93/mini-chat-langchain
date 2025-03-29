@@ -729,7 +729,7 @@ requires-dist = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "langgraph-cli", extras = ["in-mem", "in-memory", "inmem"], specifier = ">=0.1.81" },
+    { name = "langgraph-cli", extras = ["inmem"], specifier = ">=0.1.81" },
     { name = "pytest", specifier = ">=8.3.5" },
     { name = "pytest-dotenv", specifier = ">=0.5.2" },
 ]
