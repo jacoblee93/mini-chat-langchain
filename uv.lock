@@ -723,7 +723,7 @@ requires-dist = [
     { name = "langchain-anthropic", specifier = ">=0.3.10" },
     { name = "langgraph", specifier = ">=0.3.21" },
     { name = "langgraph-reflection", specifier = ">=0.0.1" },
-    { name = "openevals", extras = ["e2b-code-interpreter"], specifier = "==0.0.14rc10" },
+    { name = "openevals", extras = ["e2b-code-interpreter"], specifier = "==0.0.15" },
     { name = "python-dotenv", specifier = ">=1.1.0" },
 ]
 
@@ -795,7 +795,7 @@ wheels = [
 
 [[package]]
 name = "openevals"
-version = "0.0.14rc10"
+version = "0.0.15"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "langchain" },
@@ -803,9 +803,9 @@ dependencies = [
     { name = "langsmith" },
     { name = "rich" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ff/27/405ee93cd3a75dd586ec951e5b249ab71b8b73acb89eae937b0197189738/openevals-0.0.14rc10.tar.gz", hash = "sha256:9d8aef3e5ba90442a89d8eea3d062f6f5ca7c9f241cf2b460228dd2948a342b1", size = 42349 }
+sdist = { url = "https://files.pythonhosted.org/packages/5a/92/b01fd639984ee4009f85713ee257821fe127cf728fd2606cbf0183032bbe/openevals-0.0.15.tar.gz", hash = "sha256:377a2537f71b25207d000c3977a7227c5a5592e0a79d6ada1591c3d6dfe67e99", size = 42817 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f0/aa/9c19cc12933d58b2a86fa1e6c69d8766055c3dcc28d40a0f87a18f6820e9/openevals-0.0.14rc10-py3-none-any.whl", hash = "sha256:8341d29657420f8cc7b19072d6ab1ddaed46067c9ec6cbde9bdaa0b1764d6d1b", size = 40787 },
+    { url = "https://files.pythonhosted.org/packages/3b/83/ed617abbb93789b1036b3c6c0a954e0afd1b1dfe10ff4f030b0b66b7aa3f/openevals-0.0.15-py3-none-any.whl", hash = "sha256:7f08f5155429f47d99c83f5673939c34b8641e633ea4b29b4c8e00974e7be193", size = 41698 },
 ]
 
 [package.optional-dependencies]

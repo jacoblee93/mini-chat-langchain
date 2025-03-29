@@ -10,7 +10,7 @@ dependencies = [
     "langchain-anthropic>=0.3.10",
     "langgraph>=0.3.21",
     "langgraph-reflection>=0.0.1",
-    "openevals[e2b-code-interpreter]==0.0.14rc10",
+    "openevals[e2b-code-interpreter]==0.0.15",
     "python-dotenv>=1.1.0",
 ]
 
