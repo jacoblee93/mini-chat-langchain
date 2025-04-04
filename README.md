@@ -8,7 +8,16 @@ To improve the correctness of generated code, Mini Chat LangChain verifies the c
 
 ## Installation
 
+First, clone this repo:
+
+```bash
+git clone https://github.com/jacoblee93/mini-chat-langchain.git
+cd mini-chat-langchain
+```
+
 First, copy the `.env.example` file to `.env`, then set the following environment variables:
+
+Next, set the following environment variables:
 
 ```bash
 export ANTHROPIC_API_KEY="YOUR_KEY_HERE"
