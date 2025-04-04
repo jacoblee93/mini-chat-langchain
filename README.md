@@ -8,7 +8,14 @@ To improve the correctness of generated code, Mini Chat LangChain verifies the c
 
 ## Installation
 
-First, you'll need to set the following environment variables:
+First, clone this repo:
+
+```bash
+git clone https://github.com/jacoblee93/mini-chat-langchain.git
+cd mini-chat-langchain
+```
+
+Next, set the following environment variables:
 
 ```bash
 export ANTHROPIC_API_KEY="YOUR_KEY_HERE"
@@ -27,6 +34,8 @@ This repo is set up to use [`uv`](https://docs.astral.sh/uv/). Run `uv sync` to 
 
 ```bash
 uv sync
+# If you do not have uv installed
+# pip install
 ```
 
 ## Trying it out
