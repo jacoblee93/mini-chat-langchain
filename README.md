@@ -1,4 +1,4 @@
-# Mini Chat LangChain
+# 👶 Mini Chat LangChain
 
 A minimal agentic implementation of [Chat LangChain](https://chat.langchain.com/) that can answer questions about LangGraph. Uses a small model and no indexing or vectorstores, just LangGraph's [LLMS.txt](https://langchain-ai.github.io/langgraph/llms.txt) file!
 
